@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  width: 100px;
+  height: 40px;
+  background-color: green;
+  border-radius: 6px;
+  padding: 10px;
+  
+}
+
+.navbar {
+  /* Common styles for both dark and light modes */
+  background-color: white; /* Default background color */
+  color: black; /* Default text color */
+}
+
+.navbar.dark {
+  /* Dark mode styles */
+  background-color: black;
+  color: white;
+}
+
+.navbar.light {
+  /* Light mode styles */
+  background-color: white;
+  color: black;
+}
+
+/* Add your other CSS styles here */
+.nav-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
